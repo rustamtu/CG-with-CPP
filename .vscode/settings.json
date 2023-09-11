@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "FLDFILL.C": "cpp",
+        "BOUNDARY.C": "cpp",
+        "POLYCLIP.C": "cpp"
+    }
+}
