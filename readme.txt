@@ -1,4 +1,4 @@
-C:\MinGW\bin\g++.exe -o a.exe line_dda.cpp -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32#
+C:\MinGW\bin\g++.exe -o a.exe line_dda.cpp -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 
 
 echo "# CG-with-CPP" >> README.md

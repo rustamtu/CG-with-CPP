@@ -81,7 +81,8 @@ int main()
 {
     int gd = DETECT, gm;
     // Coordinates of the original object
-    float pointMatrix[3][3] = {{200, 100, 1}, {300, 100, 1}, {250, 200, 1}};
+    // int cenX=200, cenY=200;
+    float pointMatrix[3][3] = {{100, 100, 1}, {0, 0, 1}, {100, 0, 1}};
     // find center of the triangle (x,y)
     float x = (pointMatrix[0][0] + pointMatrix[1][0] + pointMatrix[2][0]) / 3.0;
     float y = (pointMatrix[0][1] + pointMatrix[1][1] + pointMatrix[2][1]) / 3.0;
@@ -120,7 +121,7 @@ int main()
     setcolor(BLACK);
     // Drawing the original object
     drawPolygonFromMatrix(pointMatrix, rows);
-    drawPolygonFromMatrix(newPointMatrix, rows);
+    // drawPolygonFromMatrix(newPointMatrix, rows);
 
     getch();
     closegraph();
